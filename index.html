@@ -227,128 +227,6 @@
             
               
                 
-                <a class="post-title-link" href="/2016/03/04/Code-Test/" itemprop="url">
-                  Code Test
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-03-04T21:53:00+08:00" content="2016-03-04">
-              2016-03-04
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-             <span id="/2016/03/04/Code-Test/" class="leancloud_visitors" data-flag-title="Code Test">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">visitors </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <pre><code> func drawBoard() {
-    let alphas = [&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;,&quot;g&quot;,&quot;h&quot;,&quot;i&quot;]
-    var toggle:Bool = false
-
-    for row in 0...NumRows-1 {
-        for col in 0...NumColumns-1 {
-            let colChar = alphas[col]
-
-            let color = toggle ? SKColor.whiteColor() : SKColor.blackColor()
-            let chessPoint = ChessPoint(color: color, size: CGSizeMake(gridSize, gridSize))
-            chessPoint.position = pointForColum(col, row: row)
-            chessPoint.name = &quot;\(colChar)\(row)&quot;
-            chessPoint.row = row + 1
-            chessPoint.column = col + 1
-            // 将棋点加入棋盘数组
-            board.chessPoints[col,row] = chessPoint
-            boardLayer.addChild(chessPoint)
-            toggle = !toggle
-            print(&quot;rawRow = \(row), rawColumn = \(col)&quot;)
-            print(&quot;row = \(chessPoint.row), column = \(chessPoint.column)&quot;)
-        }
-    }
-
-
-}
-</code></pre>
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
                 <a class="post-title-link" href="/2016/02/28/TV/" itemprop="url">
                   TV
                 </a>
@@ -826,6 +704,104 @@
 
 
     
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/01/23/量化自我/" itemprop="url">
+                  量化自我
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2016-01-23T18:10:00+08:00" content="2016-01-23">
+              2016-01-23
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/01/23/量化自我/" class="leancloud_visitors" data-flag-title="量化自我">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">visitors </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>看起来<br>科技的似乎是朝着<em>知道你全部的屎</em>的方向发展的？<br>手环<a href="http://7xisu9.com1.z0.glb.clouddn.com/2016-01-23%2017.57.38.png" target="_blank" rel="external">知道你睡了多久</a><br>家里的体重秤<a href="http://7xisu9.com1.z0.glb.clouddn.com/2016-01-23%2017.56.46.png" target="_blank" rel="external">记录你的脂肪</a><br>Facebook (微信)知道你的一切<br>奇怪的是 既然我们都这么喜欢<em>量化自我</em><br>为什么还要<a href="http://www.imdb.com/title/tt0133093/?ref_=fn_al_tt_1" target="_blank" rel="external">害怕脑子插管的未来</a>？</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
 
   </section>
 
@@ -872,7 +848,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">26</span>
+              <span class="site-state-item-count">25</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
@@ -899,6 +875,14 @@
                 <a href="https://twitter.com/" target="_blank">
                   
                     <i class="fa fa-twitter"></i> Twitter
+                  
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/qinlin1994" target="_blank">
+                  
+                    <i class="fa fa-globe"></i> 微博
                   
                 </a>
               </span>
