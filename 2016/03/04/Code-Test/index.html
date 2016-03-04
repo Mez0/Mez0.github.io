@@ -61,18 +61,28 @@
 
 
 
-<meta name="description" content="After upgraded to OS X 10.11, the PDF font looks blurry in Preview app.Try unselecting the Smooth text and line item in Preview app ‘s preference to solve this.">
+<meta name="description" content="func drawBoard() {
+    let alphas = [&amp;quot;a&amp;quot;,&amp;quot;b&amp;quot;,&amp;quot;c&amp;quot;,&amp;quot;d&amp;quot;,&amp;quot;e&amp;quot;,&amp;quot;f&amp;quot;,&amp;quot;g&amp;quot;,&amp;quot;h&amp;quot;,&amp;quot;i&amp;quot;]
+    var toggle:Bool = false
+
+    fo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="PDF font blurry issue in OS X El Capitan">
-<meta property="og:url" content="http://qinlin.com/2015/10/03/PDF-blurry-issue/index.html">
+<meta property="og:title" content="Code Test">
+<meta property="og:url" content="http://qinlin.com/2016/03/04/Code-Test/index.html">
 <meta property="og:site_name" content="Lost in Translation">
-<meta property="og:description" content="After upgraded to OS X 10.11, the PDF font looks blurry in Preview app.Try unselecting the Smooth text and line item in Preview app ‘s preference to solve this.">
-<meta property="og:image" content="http://7xisu9.com1.z0.glb.clouddn.com/Screen_Shot_2015-10-03_at_15_50_46x.png">
-<meta property="og:updated_time" content="2015-10-03T07:57:07.000Z">
+<meta property="og:description" content="func drawBoard() {
+    let alphas = [&amp;quot;a&amp;quot;,&amp;quot;b&amp;quot;,&amp;quot;c&amp;quot;,&amp;quot;d&amp;quot;,&amp;quot;e&amp;quot;,&amp;quot;f&amp;quot;,&amp;quot;g&amp;quot;,&amp;quot;h&amp;quot;,&amp;quot;i&amp;quot;]
+    var toggle:Bool = false
+
+    fo">
+<meta property="og:updated_time" content="2016-03-04T13:54:22.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="PDF font blurry issue in OS X El Capitan">
-<meta name="twitter:description" content="After upgraded to OS X 10.11, the PDF font looks blurry in Preview app.Try unselecting the Smooth text and line item in Preview app ‘s preference to solve this.">
-<meta name="twitter:image" content="http://7xisu9.com1.z0.glb.clouddn.com/Screen_Shot_2015-10-03_at_15_50_46x.png">
+<meta name="twitter:title" content="Code Test">
+<meta name="twitter:description" content="func drawBoard() {
+    let alphas = [&amp;quot;a&amp;quot;,&amp;quot;b&amp;quot;,&amp;quot;c&amp;quot;,&amp;quot;d&amp;quot;,&amp;quot;e&amp;quot;,&amp;quot;f&amp;quot;,&amp;quot;g&amp;quot;,&amp;quot;h&amp;quot;,&amp;quot;i&amp;quot;]
+    var toggle:Bool = false
+
+    fo">
 
 
 
@@ -90,7 +100,7 @@
   };
 </script>
 
-  <title> PDF font blurry issue in OS X El Capitan | Lost in Translation </title>
+  <title> Code Test | Lost in Translation </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -221,7 +231,7 @@
             
             
               
-                PDF font blurry issue in OS X El Capitan
+                Code Test
               
             
           </h1>
@@ -233,8 +243,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2015-10-03T15:37:56+08:00" content="2015-10-03">
-              2015-10-03
+            <time itemprop="dateCreated" datetime="2016-03-04T21:53:00+08:00" content="2016-03-04">
+              2016-03-04
             </time>
           </span>
 
@@ -248,7 +258,7 @@
 
           
           
-             <span id="/2015/10/03/PDF-blurry-issue/" class="leancloud_visitors" data-flag-title="PDF font blurry issue in OS X El Capitan">
+             <span id="/2016/03/04/Code-Test/" class="leancloud_visitors" data-flag-title="Code Test">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -269,8 +279,32 @@
       
 
       
-        <p>After upgraded to OS X 10.11, the PDF font looks blurry in Preview app.<br><img src="http://7xisu9.com1.z0.glb.clouddn.com/Screen_Shot_2015-10-03_at_15_50_46x.png" alt=""><br>Try unselecting the <code>Smooth text and line</code> item in Preview app ‘s preference to solve this.</p>
+        <pre><code> func drawBoard() {
+    let alphas = [&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;,&quot;g&quot;,&quot;h&quot;,&quot;i&quot;]
+    var toggle:Bool = false
 
+    for row in 0...NumRows-1 {
+        for col in 0...NumColumns-1 {
+            let colChar = alphas[col]
+
+            let color = toggle ? SKColor.whiteColor() : SKColor.blackColor()
+            let chessPoint = ChessPoint(color: color, size: CGSizeMake(gridSize, gridSize))
+            chessPoint.position = pointForColum(col, row: row)
+            chessPoint.name = &quot;\(colChar)\(row)&quot;
+            chessPoint.row = row + 1
+            chessPoint.column = col + 1
+            // 将棋点加入棋盘数组
+            board.chessPoints[col,row] = chessPoint
+            boardLayer.addChild(chessPoint)
+            toggle = !toggle
+            print(&quot;rawRow = \(row), rawColumn = \(col)&quot;)
+            print(&quot;row = \(chessPoint.row), column = \(chessPoint.column)&quot;)
+        }
+    }
+
+
+}
+</code></pre>
       
     </div>
 
@@ -287,17 +321,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/09/24/Font/" rel="next" title="Font">
-                <i class="fa fa-chevron-left"></i> Font
+              <a href="/2016/02/28/TV/" rel="next" title="TV">
+                <i class="fa fa-chevron-left"></i> TV
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2015/12/17/重看兄弟连/" rel="prev" title="重看兄弟连">
-                重看兄弟连 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
