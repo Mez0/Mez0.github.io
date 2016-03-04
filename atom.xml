@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Lost in Translation</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://qinlin.com/"/>
+  <updated>2016-02-28T11:48:32.000Z</updated>
+  <id>http://qinlin.com/</id>
+  
+  <author>
+    <name>Lin Qin</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TV</title>
+    <link href="http://qinlin.com/2016/02/28/TV/"/>
+    <id>http://qinlin.com/2016/02/28/TV/</id>
+    <published>2016-02-28T11:46:00.000Z</published>
+    <updated>2016-02-28T11:48:32.000Z</updated>
+    
+    <content type="html">&lt;p&gt;太宅了&lt;br&gt;&lt;a href=&quot;http://bit.ly/1KUjtgm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://bit.ly/1KUjtgm&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;太宅了&lt;br&gt;&lt;a href=&quot;http://bit.ly/1KUjtgm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://bit.ly/1KUjtgm&lt;/a&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Look On Down From The Bridge</title>
+    <link href="http://qinlin.com/2016/02/15/Look%20On%20Down%20From%20The%20Bridge/"/>
+    <id>http://qinlin.com/2016/02/15/Look On Down From The Bridge/</id>
+    <published>2016-02-15T13:12:00.000Z</published>
+    <updated>2016-02-16T06:06:11.000Z</updated>
+    
+    <content type="html">&lt;p&gt;最近在看 &lt;em&gt;Rick and Morty&lt;/em&gt;&lt;br&gt;Season 1 Episode 6 里，Rick 和 Morty 搞砸了一切，当他们的世界已经无可救药的时候，他们找到了他们刚刚死去的时空，继续生活。&lt;br&gt;&lt;em&gt;&lt;a href=&quot;https://open.spotify.com/track/010ALbbh5KlQ4fKWgSdhRd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Look On Down From The Bridge&lt;/a&gt;&lt;/em&gt; 这首歌在他们埋葬「自己」时响起：  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Look on down from the bridge&lt;br&gt;There’s still fountains down there&lt;br&gt;Look on down from the bridge&lt;br&gt;It’s still raining, up here&lt;br&gt;   Everybody seems so far away from me&lt;br&gt;Everybody just wants to be free&lt;br&gt;Look away from the sky&lt;br&gt;It’s no different when you’re leaving home&lt;br&gt;I can’t be the same thing to you now&lt;br&gt;I’m just gone, just gone&lt;br&gt;How could I say goodbye&lt;br&gt;How could I say goodbye&lt;br&gt;Goodbye&lt;br&gt;   Maybe I’ll just place my hands over you&lt;br&gt;And close my eyes real tight&lt;br&gt;There’s a light in your eyes&lt;br&gt;And you know–yeah, you know&lt;br&gt;Look on down from the bridge&lt;br&gt;I’m still waiting for you&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近在看 &lt;em&gt;Rick and Morty&lt;/em&gt;&lt;br&gt;Season 1 Episode 6 里，Rick 和 Morty 搞砸了一切，当他们的世界已经无可救药的时候，他们找到了他们刚刚死去的时空，继续生活。&lt;br&gt;&lt;em&gt;&lt;a href=&quot;https://open
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Apple&#39;s fault</title>
+    <link href="http://qinlin.com/2016/02/10/Apple's%20fault/"/>
+    <id>http://qinlin.com/2016/02/10/Apple's fault/</id>
+    <published>2016-02-10T11:28:00.000Z</published>
+    <updated>2016-02-11T09:28:32.000Z</updated>
+    
+    <content type="html">&lt;p&gt;你很难想象吧？&lt;br&gt;体量如苹果这样的公司，在国内的云服务质量竟然如此低下。&lt;br&gt;Apple Music 美国区上线的第一天我就开通了该服务——我当然没法直接使用，我当时把原因归结于新服务刚刚上线时难以避免的不稳定因素。而当我看到国区 Apple Music 上线的消息时，我记得我是很开心的，10 元人民币的价格秒杀了全球的 Apple Music 用户，但我却一直克制着自己取消订阅的冲动——直到几天之前。原因当然就是其与 Apple 这家「巨头」公司所不相称的糟糕体验。With or without proxy，国内的 Apple Music 用户（至少是我）甚至都无法顺利流畅地、随时地听完一整张专辑。我倒不是说它是从头至尾的「不可用」，可能反而正是时好时坏的状态使得用户在观感上更加难以接受。&lt;br&gt;而这一切，还是在苹果在国内&lt;em&gt;已经部署有 CDN&lt;/em&gt; 的前提之下。&lt;br&gt;不要以为只有音乐服务是这样。App Store 和 iCloud 的用户应该知道我在说什么。&lt;br&gt;注意喔，我在这里讨论的是苹果，而不是 Google 。这个锅，GFW 不背。&lt;br&gt;我现在也已经重新续费了 Spotify 的会员，妳说 Spotify Premium 要 10 美金而 Apple Music 只要 10 元人民币？&lt;br&gt;Thank you, but no thank you.   &lt;/p&gt;
+&lt;p&gt;相信我，当人们不得不去选择一个只有翻墙才能使用的服务时，原因不只有装逼。（请参考百度和 Google 的例子）&lt;br&gt;…And in this case, it’s Apple’s fault.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;你很难想象吧？&lt;br&gt;体量如苹果这样的公司，在国内的云服务质量竟然如此低下。&lt;br&gt;Apple Music 美国区上线的第一天我就开通了该服务——我当然没法直接使用，我当时把原因归结于新服务刚刚上线时难以避免的不稳定因素。而当我看到国区 Apple Music 上线的消息时
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>迷失东京</title>
+    <link href="http://qinlin.com/2016/02/05/%E8%BF%B7%E5%A4%B1%E4%B8%9C%E4%BA%AC/"/>
+    <id>http://qinlin.com/2016/02/05/迷失东京/</id>
+    <published>2016-02-05T04:00:00.000Z</published>
+    <updated>2016-02-09T05:34:52.000Z</updated>
+    
+    <content type="html">&lt;p&gt;这两天知名的日记软件 &lt;em&gt;Day One&lt;/em&gt; 发布了新版&lt;br&gt;我这才想起打开这个软件 才记起大概去年的这个时候我还坚持着在日记本里写写画画的习惯&lt;br&gt;于是乎翻到了那时 我看完《迷失东京》时记下的一些感受&lt;br&gt;其中这么一句话：  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人睡不着的原因有很多 孤独可能是其中比较可怕的一种了  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;才发现有些话以前只是说了 却不一定能明白&lt;br&gt;现在明白了&lt;br&gt;又想起自己已经很久不看这样的电影了&lt;br&gt;不敢再愚蠢的从电影里、从歌里、从诗里寻找「情绪」了  &lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这两天知名的日记软件 &lt;em&gt;Day One&lt;/em&gt; 发布了新版&lt;br&gt;我这才想起打开这个软件 才记起大概去年的这个时候我还坚持着在日记本里写写画画的习惯&lt;br&gt;于是乎翻到了那时 我看完《迷失东京》时记下的一些感受&lt;br&gt;其中这么一句话：  &lt;/p&gt;
+&lt;blockquot
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>WeChat</title>
+    <link href="http://qinlin.com/2016/01/30/WeChat/"/>
+    <id>http://qinlin.com/2016/01/30/WeChat/</id>
+    <published>2016-01-30T07:00:00.000Z</published>
+    <updated>2016-01-30T09:26:25.000Z</updated>
+    
+    <content type="html">&lt;p&gt;尽管不得不承认张小龙的故事的的确确是我们喜欢的「低调的技术人走向人生巅峰」的典型例子&lt;br&gt;尽管不得不承认微信是过去几年内，中国移动互联网最重要的产品&lt;br&gt;尽管我不愿意承认但事实就是大多数人（甚至可能包括我自己）都无法无痛地停止使用她&lt;br&gt;但我还是不喜欢微信&lt;br&gt;&lt;a href=&quot;https://apple4us.com/2015/10/wechat-the-de-facto-lan/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;原因同&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;尽管不得不承认张小龙的故事的的确确是我们喜欢的「低调的技术人走向人生巅峰」的典型例子&lt;br&gt;尽管不得不承认微信是过去几年内，中国移动互联网最重要的产品&lt;br&gt;尽管我不愿意承认但事实就是大多数人（甚至可能包括我自己）都无法无痛地停止使用她&lt;br&gt;但我还是不喜欢微信&lt;br&gt;&lt;a
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>量化自我</title>
+    <link href="http://qinlin.com/2016/01/23/%E9%87%8F%E5%8C%96%E8%87%AA%E6%88%91/"/>
+    <id>http://qinlin.com/2016/01/23/量化自我/</id>
+    <published>2016-01-23T10:10:00.000Z</published>
+    <updated>2016-01-23T10:14:42.000Z</updated>
+    
+    <content type="html">&lt;p&gt;看起来&lt;br&gt;科技的似乎是朝着&lt;em&gt;知道你全部的屎&lt;/em&gt;的方向发展的？&lt;br&gt;手环&lt;a href=&quot;http://7xisu9.com1.z0.glb.clouddn.com/2016-01-23%2017.57.38.png&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;知道你睡了多久&lt;/a&gt;&lt;br&gt;家里的体重秤&lt;a href=&quot;http://7xisu9.com1.z0.glb.clouddn.com/2016-01-23%2017.56.46.png&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;记录你的脂肪&lt;/a&gt;&lt;br&gt;Facebook (微信)知道你的一切&lt;br&gt;奇怪的是 既然我们都这么喜欢&lt;em&gt;量化自我&lt;/em&gt;&lt;br&gt;为什么还要&lt;a href=&quot;http://www.imdb.com/title/tt0133093/?ref_=fn_al_tt_1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;害怕脑子插管的未来&lt;/a&gt;？&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;看起来&lt;br&gt;科技的似乎是朝着&lt;em&gt;知道你全部的屎&lt;/em&gt;的方向发展的？&lt;br&gt;手环&lt;a href=&quot;http://7xisu9.com1.z0.glb.clouddn.com/2016-01-23%2017.57.38.png&quot; target=&quot;_blank&quot; rel
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>高等数学</title>
+    <link href="http://qinlin.com/2016/01/19/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
+    <id>http://qinlin.com/2016/01/19/高等数学/</id>
+    <published>2016-01-19T10:12:00.000Z</published>
+    <updated>2016-01-19T10:15:41.000Z</updated>
+    
+    <content type="html">&lt;p&gt;作为一个 CS 学生&lt;br&gt;我可是学了4年数学呢！&lt;br&gt;我的数学一定很厉害吧&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;作为一个 CS 学生&lt;br&gt;我可是学了4年数学呢！&lt;br&gt;我的数学一定很厉害吧&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Yes we can</title>
+    <link href="http://qinlin.com/2016/01/10/Yes%20we%20can/"/>
+    <id>http://qinlin.com/2016/01/10/Yes we can/</id>
+    <published>2016-01-10T13:48:00.000Z</published>
+    <updated>2016-01-19T10:23:35.000Z</updated>
+    
+    <content type="html">&lt;p&gt;我可以喜欢悦耳的歌曲&lt;br&gt;我可以只读俗气的小说&lt;br&gt;我不用耐着性子看不知所谓的艺术电影&lt;br&gt;需要&lt;strong&gt;体验&lt;/strong&gt;的事情已经够多了&lt;br&gt;活&lt;br&gt;没有什么 Best Practice  &lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我可以喜欢悦耳的歌曲&lt;br&gt;我可以只读俗气的小说&lt;br&gt;我不用耐着性子看不知所谓的艺术电影&lt;br&gt;需要&lt;strong&gt;体验&lt;/strong&gt;的事情已经够多了&lt;br&gt;活&lt;br&gt;没有什么 Best Practice  &lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一五</title>
+    <link href="http://qinlin.com/2015/12/26/%E4%B8%80%E4%BA%94/"/>
+    <id>http://qinlin.com/2015/12/26/一五/</id>
+    <published>2015-12-26T12:58:35.000Z</published>
+    <updated>2015-12-27T12:59:23.000Z</updated>
+    
+    <content type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;br&gt;Maturity has everything to do with the acceptance of “not knowing”.&lt;br&gt;&lt;br&gt;—— Mark Z. Danielewski&lt;br&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;这当然又是一样的陈词滥调，不过没有关系，这是给我自己看的。&lt;/em&gt;  &lt;/p&gt;
+&lt;p&gt;在这一年里我：  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;看了89部电影  &lt;/li&gt;
+&lt;li&gt;读了至少12本小说  &lt;/li&gt;
+&lt;li&gt;追了好多好多的剧  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;宅了好久好久。&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;与此同时，&lt;br&gt;我上完了大学里最后一门选修，从大三走到了大四。&lt;br&gt;没有找实习。&lt;br&gt;然后注册了自己第一个 Apple Developer 帐号。&lt;br&gt;——脱离了学校，才真正开始了学习。  &lt;/p&gt;
+&lt;p&gt;我以为闭门造车就意味着没有干扰，后来我才明白，环境并不重要，重要的心境。总有那些觉得很难的时刻，不过又怎样呢？忍忍吧。  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;还发生了什么？&lt;/strong&gt;  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;写了第一个自己用的上的小应用，虽然很简单，但有成就感  &lt;/li&gt;
+&lt;li&gt;开始着手毕业设计，不简单，好在能顶住  &lt;/li&gt;
+&lt;li&gt;高考完报名的驾培，在这么多年后总算是有了结果，一切顺利。其实有时候想想也挺后悔当时的懒惰让自己白白多等了这么久，不过现在也不算太晚  &lt;/li&gt;
+&lt;li&gt;一次情绪上的变动  &lt;/li&gt;
+&lt;li&gt;由于上面，养成了冥想的习惯，（努力地） “At ease with the world around me.”&lt;/li&gt;
+&lt;li&gt;胖了许多&lt;/li&gt;
+&lt;li&gt;裸考过了六级&lt;/li&gt;
+&lt;li&gt;第一次写 &lt;a href=&quot;https://nodejs.org/en/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;node&lt;/a&gt; ，被吓尿&lt;/li&gt;
+&lt;li&gt;做了几件对事&lt;/li&gt;
+&lt;li&gt;做了好多错事&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;至于别的什么，不重要了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Stories never matter.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;对自己是这样，对别人更是这样。  &lt;/p&gt;
+&lt;p&gt;我认为单纯的期待「明天（明年）会更好」是不公平的。&lt;br&gt;倒不如套用刚看的电影《老炮儿》里六爷的一句台词：「人有好的时候，也有背的时候」。&lt;br&gt;不求接受所有的可能，只要接纳对未知本身的恐惧，就足够好了。  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“In case I don’t see ya, good afternoon, good evening, and good night!”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Cheers.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;br&gt;Maturity has everything to do with the acceptance of “not knowing”.&lt;br&gt;&lt;br&gt;—— Mark Z. Danielewski&lt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Errr</title>
+    <link href="http://qinlin.com/2015/12/21/errr/"/>
+    <id>http://qinlin.com/2015/12/21/errr/</id>
+    <published>2015-12-21T14:09:00.000Z</published>
+    <updated>2015-12-21T14:11:33.000Z</updated>
+    
+    <content type="html">&lt;p&gt;晚上花了俩小时在 NAS 上装了 Git Sever 配置完了就 push 了个 &lt;code&gt;test.md&lt;/code&gt;。&lt;br&gt;并卵。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;晚上花了俩小时在 NAS 上装了 Git Sever 配置完了就 push 了个 &lt;code&gt;test.md&lt;/code&gt;。&lt;br&gt;并卵。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>精神污染</title>
+    <link href="http://qinlin.com/2015/12/20/%E7%B2%BE%E7%A5%9E%E6%B1%A1%E6%9F%93/"/>
+    <id>http://qinlin.com/2015/12/20/精神污染/</id>
+    <published>2015-12-20T12:58:00.000Z</published>
+    <updated>2015-12-20T13:33:23.000Z</updated>
+    
+    <content type="html">&lt;p&gt;之前不知怎么的特别喜欢&lt;code&gt;Solarized Dark&lt;/code&gt;这个配色风格&lt;br&gt;一口气把我所有的 IDE、编辑器、终端窗口全都换成了这个配色…&lt;br&gt;然后直到前两天把 Atom 的配色改成了白底黑字竟然发现更好看了…&lt;br&gt;这才是真正的精神污染。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前不知怎么的特别喜欢&lt;code&gt;Solarized Dark&lt;/code&gt;这个配色风格&lt;br&gt;一口气把我所有的 IDE、编辑器、终端窗口全都换成了这个配色…&lt;br&gt;然后直到前两天把 Atom 的配色改成了白底黑字竟然发现更好看了…&lt;br&gt;这才是真正的精神污染。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>重看兄弟连</title>
+    <link href="http://qinlin.com/2015/12/17/%E9%87%8D%E7%9C%8B%E5%85%84%E5%BC%9F%E8%BF%9E/"/>
+    <id>http://qinlin.com/2015/12/17/重看兄弟连/</id>
+    <published>2015-12-17T12:26:00.000Z</published>
+    <updated>2015-12-17T12:27:21.000Z</updated>
+    
+    <content type="html">&lt;p&gt;这是我「卧槽这剧让我再看一遍都行」名单上唯一我真正重看的一部。&lt;br&gt;原来在知道了剧情的情况下依然被震撼是有可能的。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是我「卧槽这剧让我再看一遍都行」名单上唯一我真正重看的一部。&lt;br&gt;原来在知道了剧情的情况下依然被震撼是有可能的。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>PDF font blurry issue in OS X El Capitan</title>
+    <link href="http://qinlin.com/2015/10/03/PDF-blurry-issue/"/>
+    <id>http://qinlin.com/2015/10/03/PDF-blurry-issue/</id>
+    <published>2015-10-03T07:37:56.000Z</published>
+    <updated>2015-10-03T07:57:07.000Z</updated>
+    
+    <content type="html">&lt;p&gt;After upgraded to OS X 10.11, the PDF font looks blurry in Preview app.&lt;br&gt;&lt;img src=&quot;http://7xisu9.com1.z0.glb.clouddn.com/Screen_Shot_2015-10-03_at_15_50_46x.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;Try unselecting the &lt;code&gt;Smooth text and line&lt;/code&gt; item in Preview app ‘s preference to solve this.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;After upgraded to OS X 10.11, the PDF font looks blurry in Preview app.&lt;br&gt;&lt;img src=&quot;http://7xisu9.com1.z0.glb.clouddn.com/Screen_Shot_20
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Font</title>
+    <link href="http://qinlin.com/2015/09/24/Font/"/>
+    <id>http://qinlin.com/2015/09/24/Font/</id>
+    <published>2015-09-24T14:44:30.000Z</published>
+    <updated>2015-12-27T13:03:06.000Z</updated>
+    
+    <content type="html">&lt;p&gt;因为「苹方」的缘故，我将我手机上用了很长一段时间的英文界面语言切换回了中文。让我改变这个习惯的原因，在于「苹方」与「华文黑体」相比，不谈我个人在审美上对前者的倾向，只谈易读性，那也是「不知道高到哪里去了」。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;因为「苹方」的缘故，我将我手机上用了很长一段时间的英文界面语言切换回了中文。让我改变这个习惯的原因，在于「苹方」与「华文黑体」相比，不谈我个人在审美上对前者的倾向，只谈易读性，那也是「不知道高到哪里去了」。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>在 OS X 上使用 aria2 下载百度云盘上的资源</title>
+    <link href="http://qinlin.com/2015/08/17/%E5%9C%A8-OS-X-%E4%B8%8A%E4%BD%BF%E7%94%A8-aria2-%E4%B8%8B%E8%BD%BD%E7%99%BE%E5%BA%A6%E4%BA%91%E7%9B%98%E4%B8%8A%E7%9A%84%E8%B5%84%E6%BA%90/"/>
+    <id>http://qinlin.com/2015/08/17/在-OS-X-上使用-aria2-下载百度云盘上的资源/</id>
+    <published>2015-08-17T10:23:56.000Z</published>
+    <updated>2015-08-17T10:26:17.000Z</updated>
+    
+    <content type="html">&lt;p&gt;在国内网络环境下，基本逃不开要在百度云盘这个&lt;del&gt;傻逼平台&lt;/del&gt;上下点东西。而由于目前为止 OS X 下还没有类似 Windows 平台下的&lt;a href=&quot;http://pan.baidu.com/download#pan&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;云管家&lt;/a&gt;客户端，再加上 Chrome 自带下载百度云时速度十分无力，最操蛋的是貌似最近「直接将下载地址拷贝到迅雷」的方法也不好用了，因此整个下载速度就呵呵了。所以在网上找到了这样一个跨平台的命令行下载工具 &lt;a href=&quot;http://aria2.sourceforge.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;aria2&lt;/a&gt;，配合一个 &lt;a href=&quot;https://chrome.google.com/webstore/detail/baiduexporter/mjaenbjdjmgolhoafkohbhhbaiedbkno/related&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Chrome 插件&lt;/a&gt;，算是让下载云盘不再那么蛋疼了。  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在 Terminal 中输入&lt;code&gt;brew install aria2&lt;/code&gt;来安装 aria2 &lt;/li&gt;
+&lt;li&gt;安装 &lt;a href=&quot;https://chrome.google.com/webstore/detail/baiduexporter/mjaenbjdjmgolhoafkohbhhbaiedbkno/related&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Chrome 插件&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;下载时，将插件生成的指令复制到 Terminal  &lt;/li&gt;
+&lt;li&gt;文件会下载到当前工作目录  &lt;/li&gt;
+&lt;li&gt;Done&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在国内网络环境下，基本逃不开要在百度云盘这个&lt;del&gt;傻逼平台&lt;/del&gt;上下点东西。而由于目前为止 OS X 下还没有类似 Windows 平台下的&lt;a href=&quot;http://pan.baidu.com/download#pan&quot; target=&quot;_blank&quot; re
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>乏味</title>
+    <link href="http://qinlin.com/2015/08/10/%E4%B9%8F%E5%91%B3/"/>
+    <id>http://qinlin.com/2015/08/10/乏味/</id>
+    <published>2015-08-10T14:26:16.000Z</published>
+    <updated>2015-08-10T14:26:16.000Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Across the Universe</title>
+    <link href="http://qinlin.com/2015/08/04/Across-the-Universe/"/>
+    <id>http://qinlin.com/2015/08/04/Across-the-Universe/</id>
+    <published>2015-08-04T02:13:55.000Z</published>
+    <updated>2015-08-04T02:25:27.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Swift 再漂亮又有什么用呢？&lt;br&gt;Cocoa 的 API 不还是怒～长～  &lt;/p&gt;
+&lt;p&gt;Fiona Apple 的版本很好听：  &lt;/p&gt;
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot; src=&quot;http://music.163.com/outchain/player?type=2&amp;id=2588282&amp;auto=0&amp;height=66&quot;&gt;&lt;/iframe&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Swift 再漂亮又有什么用呢？&lt;br&gt;Cocoa 的 API 不还是怒～长～  &lt;/p&gt;
+&lt;p&gt;Fiona Apple 的版本很好听：  &lt;/p&gt;
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheig
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>既然忘记刮胡子了那还是不要出门了！</title>
+    <link href="http://qinlin.com/2015/07/14/%E6%97%A2%E7%84%B6%E5%BF%98%E8%AE%B0%E5%88%AE%E8%83%A1%E5%AD%90%E4%BA%86%E9%82%A3%E8%BF%98%E6%98%AF%E4%B8%8D%E8%A6%81%E5%87%BA%E9%97%A8%E4%BA%86%EF%BC%81/"/>
+    <id>http://qinlin.com/2015/07/14/既然忘记刮胡子了那还是不要出门了！/</id>
+    <published>2015-07-14T05:08:09.000Z</published>
+    <updated>2015-07-14T05:09:22.000Z</updated>
+    
+    <content type="html">&lt;p&gt;有时候懒才是生产力&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;有时候懒才是生产力&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>梦想</title>
+    <link href="http://qinlin.com/2015/06/15/%E6%A2%A6%E6%83%B3/"/>
+    <id>http://qinlin.com/2015/06/15/梦想/</id>
+    <published>2015-06-15T14:26:57.000Z</published>
+    <updated>2015-06-15T14:30:47.000Z</updated>
+    
+    <content type="html">&lt;p&gt;《炼金术士》中水晶店老板对牧羊少年说了这样一段话：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我是靠着想去麦加的念头活下来的。是这个念头支持我能够面对一成不变的每一天，面对放在架子上的这些水晶，日复一日地在那间可怕的咖啡厅里吃午餐和晚餐。我很害怕一旦我完成了梦想，我将不再有活下去的理由。  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sad but True&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;《炼金术士》中水晶店老板对牧羊少年说了这样一段话：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我是靠着想去麦加的念头活下来的。是这个念头支持我能够面对一成不变的每一天，面对放在架子上的这些水晶，日复一日地在那间可怕的咖啡厅里吃午餐和晚餐。我很害怕一旦我完成了梦想，我将不再有活
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>无用的、无用的</title>
+    <link href="http://qinlin.com/2015/06/14/%E6%97%A0%E7%94%A8%E7%9A%84%E3%80%81%E6%97%A0%E7%94%A8%E7%9A%84/"/>
+    <id>http://qinlin.com/2015/06/14/无用的、无用的/</id>
+    <published>2015-06-14T13:14:50.000Z</published>
+    <updated>2015-06-15T08:59:13.000Z</updated>
+    
+    <content type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;Man is a useless passion&lt;/blockquote&gt;  
+
+
+
+
+
+
+
+
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;Man is a useless passion&lt;/blockquote&gt;  
+
+
+
+
+
+
+
+
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
