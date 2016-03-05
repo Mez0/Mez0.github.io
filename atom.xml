@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://qinlin.com/"/>
-  <updated>2016-02-28T11:48:32.000Z</updated>
+  <updated>2016-03-05T12:41:51.000Z</updated>
   <id>http://qinlin.com/</id>
   
   <author>
@@ -14,6 +14,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>黑科技</title>
+    <link href="http://qinlin.com/2016/03/05/%E9%BB%91%E7%A7%91%E6%8A%80/"/>
+    <id>http://qinlin.com/2016/03/05/黑科技/</id>
+    <published>2016-03-05T12:33:00.000Z</published>
+    <updated>2016-03-05T12:41:51.000Z</updated>
+    
+    <content type="html">&lt;p&gt;之前一直主要使用的现成的服务来 Fuck the GFW&lt;br&gt;Mac 上用的 &lt;code&gt;GoAgentX&lt;/code&gt; 客户端&lt;br&gt;虽说自己一直也有一台 Bandwagon VPS 跑着 ss&lt;br&gt;不过自己到真用的挺少&lt;br&gt;本身速度也慢&lt;br&gt;不过最近听说了 &lt;a href=&quot;https://github.com/d1sm/finalspeed&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;FinalSpeed&lt;/a&gt; 这么个黑科技玩意&lt;br&gt;装好一试简直了&lt;br&gt;配合 ss 用 Youtube 4K 流畅的要死…&lt;br&gt;就是 Java 版本的客户端嘛…&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前一直主要使用的现成的服务来 Fuck the GFW&lt;br&gt;Mac 上用的 &lt;code&gt;GoAgentX&lt;/code&gt; 客户端&lt;br&gt;虽说自己一直也有一台 Bandwagon VPS 跑着 ss&lt;br&gt;不过自己到真用的挺少&lt;br&gt;本身速度也慢&lt;br&gt;不过最近听说了 &lt;a
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>TV</title>
@@ -445,26 +464,6 @@
 
 
 
-
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>喷了</title>
-    <link href="http://qinlin.com/2015/05/26/%E5%96%B7%E4%BA%86/"/>
-    <id>http://qinlin.com/2015/05/26/喷了/</id>
-    <published>2015-05-26T13:50:13.000Z</published>
-    <updated>2015-05-26T13:54:02.000Z</updated>
-    
-    <content type="html">&lt;p&gt;至今没能弄懂&lt;br&gt;「爱与美食不可辜负」这句鸟话是个什么jb意思&lt;br&gt;能不能算最恶心人的中文句子？&lt;br&gt;一个思考&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;至今没能弄懂&lt;br&gt;「爱与美食不可辜负」这句鸟话是个什么jb意思&lt;br&gt;能不能算最恶心人的中文句子？&lt;br&gt;一个思考&lt;/p&gt;
 
     
     </summary>
