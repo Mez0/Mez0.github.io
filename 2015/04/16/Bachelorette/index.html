@@ -114,6 +114,8 @@ Drink me, make me feel realWet your beak in the streamGame we’re playing is li
 
 
 
+
+
   
   
     
@@ -148,7 +150,7 @@ Drink me, make me feel realWet your beak in the streamGame we’re playing is li
   
 
   
-    <ul id="menu" class="menu ">
+    <ul id="menu" class="menu">
       
         
         <li class="menu-item menu-item-home">
@@ -181,10 +183,6 @@ Drink me, make me feel realWet your beak in the streamGame we’re playing is li
         </li>
       
 
-      
-
-
-      
       
     </ul>
   
@@ -376,7 +374,7 @@ Drink me, make me feel realWet your beak in the streamGame we’re playing is li
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
-          
+
           
 
           
@@ -417,7 +415,8 @@ Drink me, make me feel realWet your beak in the streamGame we’re playing is li
         
         
 
-        <div class="links-of-author motion-element">
+        
+        <div class="links-of-blogroll motion-element">
           
         </div>
 
@@ -453,9 +452,8 @@ Drink me, make me feel realWet your beak in the streamGame we’re playing is li
     <footer id="footer" class="footer">
       <div class="footer-inner">
         <div class="copyright" >
-  
-  &copy;  2015 - 
-  <span itemprop="copyrightYear">2016</span>
+Giving a fuck since 2015
+  <span itemprop="copyrightYear"></span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
@@ -478,7 +476,9 @@ Drink me, make me feel realWet your beak in the streamGame we’re playing is li
       </div>
     </footer>
 
-    <div class="back-to-top"></div>
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
   </div>
 
   
@@ -673,7 +673,7 @@ Drink me, make me feel realWet your beak in the streamGame we’re playing is li
     NexT.motion.middleWares.sidebar = function () {
       var $tocContent = $('.post-toc-content');
 
-      if (CONFIG.scheme !== 'Pisces' && (CONFIG.sidebar.display === 'post' || CONFIG.sidebar.display === 'always')) {
+      if (CONFIG.sidebar.display === 'post' || CONFIG.sidebar.display === 'always') {
         if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
           NexT.utils.displaySidebar();
         }
@@ -703,7 +703,6 @@ Drink me, make me feel realWet your beak in the streamGame we’re playing is li
   
   
 
-  
   
 
   

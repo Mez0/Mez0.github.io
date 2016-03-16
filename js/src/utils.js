@@ -33,6 +33,26 @@ NexT.utils = NexT.$u = {
     });
   },
 
+  lazyLoadPostsImages: function () {
+    $('#posts').find('img').lazyload({
+      placeholder: '/images/loading.gif',
+      effect: 'fadeIn'
+    });
+  },
+
+  registerBackToTop: function () {
+    var THRESHOLD = 50;
+
+    $top = $('.back-to-top');
+    $(window).on('scroll', function () {
+      $top.toggleClass('back-to-top-on', document.body.scrollTop > THRESHOLD);
+    });
+
+    $top.on('click', function () {
+      $('body').velocity('scroll');
+    });
+  },
+
   /**
    * Transform embedded video to support responsive layout.
    * @see http://toddmotto.com/fluid-and-responsive-youtube-and-vimeo-videos-with-fluidvids-js/
@@ -143,7 +163,7 @@ NexT.utils = NexT.$u = {
   },
 
   displaySidebar: function () {
-    if (!this.isDesktop()) {
+    if (!this.isDesktop() || this.isPisces()) {
       return;
     }
     $('.sidebar-toggle').trigger('click');

@@ -111,6 +111,8 @@
 
 
 
+
+
   
   
     
@@ -145,7 +147,7 @@
   
 
   
-    <ul id="menu" class="menu ">
+    <ul id="menu" class="menu">
       
         
         <li class="menu-item menu-item-home">
@@ -178,10 +180,6 @@
         </li>
       
 
-      
-
-
-      
       
     </ul>
   
@@ -375,7 +373,7 @@
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
-          
+
           
 
           
@@ -416,7 +414,8 @@
         
         
 
-        <div class="links-of-author motion-element">
+        
+        <div class="links-of-blogroll motion-element">
           
         </div>
 
@@ -452,9 +451,8 @@
     <footer id="footer" class="footer">
       <div class="footer-inner">
         <div class="copyright" >
-  
-  &copy;  2015 - 
-  <span itemprop="copyrightYear">2016</span>
+Giving a fuck since 2015
+  <span itemprop="copyrightYear"></span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
@@ -477,7 +475,9 @@
       </div>
     </footer>
 
-    <div class="back-to-top"></div>
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
   </div>
 
   
@@ -672,7 +672,7 @@
     NexT.motion.middleWares.sidebar = function () {
       var $tocContent = $('.post-toc-content');
 
-      if (CONFIG.scheme !== 'Pisces' && (CONFIG.sidebar.display === 'post' || CONFIG.sidebar.display === 'always')) {
+      if (CONFIG.sidebar.display === 'post' || CONFIG.sidebar.display === 'always') {
         if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
           NexT.utils.displaySidebar();
         }
@@ -702,7 +702,6 @@
   
   
 
-  
   
 
   
