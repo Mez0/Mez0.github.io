@@ -61,16 +61,25 @@
 
 
 
-<meta name="description" content="因为「苹方」的缘故，我将我手机上用了很长一段时间的英文界面语言切换回了中文。让我改变这个习惯的原因，在于「苹方」与「华文黑体」相比，不谈我个人在审美上对前者的倾向，只谈易读性，那也是「不知道高到哪里去了」。">
+<meta name="description" content="OS X 开发中遇到使用 NSPopover 来弹出窗口时，可以通过自定义两个 NSView 类的方式实现。本解决方案来自[stack overflow]以下是 Swift 2 的版本：  
+
+将 View Controller 的 root view 设为自定义的 PopoverRootView：  
+1234567891011121314151617import Cocoaclass Popo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Font">
-<meta property="og:url" content="http://qinlin.com/2015/09/24/Font/index.html">
+<meta property="og:title" content="改变 NSPopover 的背景颜色（Swift 2版本）">
+<meta property="og:url" content="http://qinlin.com/2016/05/20/改变 NSPopover 的背景颜色（Swift 2版本）/index.html">
 <meta property="og:site_name" content="Lost in Translation">
-<meta property="og:description" content="因为「苹方」的缘故，我将我手机上用了很长一段时间的英文界面语言切换回了中文。让我改变这个习惯的原因，在于「苹方」与「华文黑体」相比，不谈我个人在审美上对前者的倾向，只谈易读性，那也是「不知道高到哪里去了」。">
-<meta property="og:updated_time" content="2015-12-27T13:03:06.000Z">
+<meta property="og:description" content="OS X 开发中遇到使用 NSPopover 来弹出窗口时，可以通过自定义两个 NSView 类的方式实现。本解决方案来自[stack overflow]以下是 Swift 2 的版本：  
+
+将 View Controller 的 root view 设为自定义的 PopoverRootView：  
+1234567891011121314151617import Cocoaclass Popo">
+<meta property="og:updated_time" content="2016-05-20T13:22:54.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Font">
-<meta name="twitter:description" content="因为「苹方」的缘故，我将我手机上用了很长一段时间的英文界面语言切换回了中文。让我改变这个习惯的原因，在于「苹方」与「华文黑体」相比，不谈我个人在审美上对前者的倾向，只谈易读性，那也是「不知道高到哪里去了」。">
+<meta name="twitter:title" content="改变 NSPopover 的背景颜色（Swift 2版本）">
+<meta name="twitter:description" content="OS X 开发中遇到使用 NSPopover 来弹出窗口时，可以通过自定义两个 NSView 类的方式实现。本解决方案来自[stack overflow]以下是 Swift 2 的版本：  
+
+将 View Controller 的 root view 设为自定义的 PopoverRootView：  
+1234567891011121314151617import Cocoaclass Popo">
 
 
 
@@ -88,7 +97,7 @@
   };
 </script>
 
-  <title> Font | Lost in Translation </title>
+  <title> 改变 NSPopover 的背景颜色（Swift 2版本） | Lost in Translation </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -217,7 +226,7 @@
             
             
               
-                Font
+                改变 NSPopover 的背景颜色（Swift 2版本）
               
             
           </h1>
@@ -229,8 +238,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2015-09-24T22:44:30+08:00" content="2015-09-24">
-              2015-09-24
+            <time itemprop="dateCreated" datetime="2016-05-20T21:14:00+08:00" content="2016-05-20">
+              2016-05-20
             </time>
           </span>
 
@@ -244,7 +253,7 @@
 
           
           
-             <span id="/2015/09/24/Font/" class="leancloud_visitors" data-flag-title="Font">
+             <span id="/2016/05/20/改变 NSPopover 的背景颜色（Swift 2版本）/" class="leancloud_visitors" data-flag-title="改变 NSPopover 的背景颜色（Swift 2版本）">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -265,7 +274,15 @@
       
 
       
-        <p>因为「苹方」的缘故，我将我手机上用了很长一段时间的英文界面语言切换回了中文。让我改变这个习惯的原因，在于「苹方」与「华文黑体」相比，不谈我个人在审美上对前者的倾向，只谈易读性，那也是「不知道高到哪里去了」。</p>
+        <p>OS X 开发中遇到使用 NSPopover 来弹出窗口时，可以通过自定义两个 NSView 类的方式实现。<br>本解决方案来自[stack overflow]<br>以下是 Swift 2 的版本：  </p>
+<ol>
+<li><p>将 View Controller 的 root view 设为自定义的 PopoverRootView：  </p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Cocoa</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">PopoverRootView</span>: <span class="title">NSView</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">override</span> <span class="function"><span class="keyword">func</span> <span class="title">drawRect</span><span class="params">(dirtyRect: NSRect)</span></span> &#123;</span><br><span class="line">      <span class="keyword">super</span>.drawRect(dirtyRect)</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">override</span> <span class="function"><span class="keyword">func</span> <span class="title">viewDidMoveToWindow</span><span class="params">()</span></span> &#123;</span><br><span class="line">      <span class="keyword">let</span> aFrameView = <span class="keyword">self</span>.window?.contentView?.superview</span><br><span class="line">      <span class="keyword">let</span> aBGView = <span class="type">PopoverBackgroundView</span>(frame: aFrameView!.bounds)</span><br><span class="line">      aBGView.autoresizingMask = [.<span class="type">ViewHeightSizable</span>, .<span class="type">ViewWidthSizable</span>]</span><br><span class="line">      aFrameView?.addSubview(aBGView, positioned: .<span class="type">Below</span>, relativeTo: aFrameView)</span><br><span class="line">      <span class="keyword">super</span>.viewDidMoveToWindow()</span><br><span class="line"></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>自定义一个 PopoverBackgroundView 类来绘制背景颜色：  </p>
+</li>
+</ol>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Cocoa</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">PopoverRootView</span>: <span class="title">NSView</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">func</span> <span class="title">drawRect</span><span class="params">(dirtyRect: NSRect)</span></span> &#123;</span><br><span class="line">        <span class="keyword">super</span>.drawRect(dirtyRect)</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">func</span> <span class="title">viewDidMoveToWindow</span><span class="params">()</span></span> &#123;</span><br><span class="line">        <span class="keyword">let</span> aFrameView = <span class="keyword">self</span>.window?.contentView?.superview</span><br><span class="line">        <span class="keyword">let</span> aBGView = <span class="type">PopoverBackgroundView</span>(frame: aFrameView!.bounds)</span><br><span class="line">        aBGView.autoresizingMask = [.<span class="type">ViewHeightSizable</span>, .<span class="type">ViewWidthSizable</span>]</span><br><span class="line">        aFrameView?.addSubview(aBGView, positioned: .<span class="type">Below</span>, relativeTo: aFrameView)</span><br><span class="line">        <span class="keyword">super</span>.viewDidMoveToWindow()</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -283,17 +300,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/08/17/在-OS-X-上使用-aria2-下载百度云盘上的资源/" rel="next" title="在 OS X 上使用 aria2 下载百度云盘上的资源">
-                <i class="fa fa-chevron-left"></i> 在 OS X 上使用 aria2 下载百度云盘上的资源
+              <a href="/2016/04/04/逝者如斯夫，不舍昼夜/" rel="next" title="逝者如斯夫，不舍昼夜">
+                <i class="fa fa-chevron-left"></i> 逝者如斯夫，不舍昼夜
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2015/10/03/PDF-blurry-issue/" rel="prev" title="PDF font blurry issue in OS X El Capitan">
-                PDF font blurry issue in OS X El Capitan <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
