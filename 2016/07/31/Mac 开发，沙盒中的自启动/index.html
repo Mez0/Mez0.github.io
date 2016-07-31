@@ -20,7 +20,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Lost in Translation"/>
+        <meta property="og:title" content="Mac 开发，沙盒中的自启动"/>
     
 
     <!--Open Graph Description-->
@@ -33,7 +33,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
     
 
     <!--Page Cover-->
@@ -44,7 +44,7 @@
 
     <!-- Title -->
     
-    <title>Lost in Translation</title>
+    <title>Mac 开发，沙盒中的自启动 - Lost in Translation</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -131,128 +131,56 @@
 
     <!-- Main Content -->
     <!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
 <header class="intro-header" style="background-image: url('/images/homepage.png')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Lost in Translation</h1>
-                    <hr class="small">
-                    <span class="subheading">屠龙的勇士最后也成了龙</span>
+                <div class="post-heading">
+                    <h1>Mac 开发，沙盒中的自启动</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        2016-07-31
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            
-                <div class="post-preview">
-    <a href="/2016/07/31/Mac 开发，沙盒中的自启动/">
-        <h2 class="post-title">
-            Mac 开发，沙盒中的自启动
-        </h2>
-        
-    </a>
-    <p class="post-meta">
-        <!-- Date and Author -->
-        
-        2016-07-31
-    </p>
-</div>
-<hr>
-            
-                <div class="post-preview">
-    <a href="/2016/07/26/Seinfeld/">
-        <h2 class="post-title">
-            Seinfeld
-        </h2>
-        
-    </a>
-    <p class="post-meta">
-        <!-- Date and Author -->
-        
-        2016-07-26
-    </p>
-</div>
-<hr>
-            
-                <div class="post-preview">
-    <a href="/2016/05/20/改变 NSPopover 的背景颜色（Swift 2版本）/">
-        <h2 class="post-title">
-            改变 NSPopover 的背景颜色（Swift 2版本）
-        </h2>
-        
-    </a>
-    <p class="post-meta">
-        <!-- Date and Author -->
-        
-        2016-05-20
-    </p>
-</div>
-<hr>
-            
-                <div class="post-preview">
-    <a href="/2016/03/14/Leaving Las Vegas/">
-        <h2 class="post-title">
-            Leaving Las Vegas
-        </h2>
-        
-    </a>
-    <p class="post-meta">
-        <!-- Date and Author -->
-        
-        2016-03-14
-    </p>
-</div>
-<hr>
-            
-                <div class="post-preview">
-    <a href="/2016/03/05/黑科技/">
-        <h2 class="post-title">
-            黑科技
-        </h2>
-        
-    </a>
-    <p class="post-meta">
-        <!-- Date and Author -->
-        
-        2016-03-05
-    </p>
-</div>
-<hr>
-            
-                <div class="post-preview">
-    <a href="/2016/02/28/TV/">
-        <h2 class="post-title">
-            TV
-        </h2>
-        
-    </a>
-    <p class="post-meta">
-        <!-- Date and Author -->
-        
-        2016-02-28
-    </p>
-</div>
-<hr>
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
             
 
-            <ul class="pager">
-    
-    
-        <li class="next"><a href="/page/2/">Older Posts  &rarr;</a></li>
-    
-</ul>
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>比较简单的一种方法是通过 <code>SMLoginItemSetEnabled</code> 来注册启动项，但你并不能直接在主应用中将自己注册为启动项，函数会返回 false。<br><a href="https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLoginItems.html" target="_blank" rel="external">Apple 官方文档</a> 给出一种思路：创建一个 Helper 应用->通过<code>SMLoginItemSetEnabled</code> 注册自启动->通过 Helper 启动主应用->终结 Helper 应用。<br>具体实现方法参考：<br><a href="https://theswiftdev.com/2015/09/17/first-os-x-tutorial-how-to-launch-an-os-x-app-at-login/" target="_blank" rel="external">First OS X tutorial: How to launch an OS X app at login?</a><br><a href="http://atjason.com/en/Cocoa/SwiftCocoa_Auto%20Launch%20at%20Login.html" target="_blank" rel="external">Swift &amp; Cocoa: Auto Launch at Login</a></p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
         </div>
     </div>
-</div>
-
-
+</article>
 
     <!-- Footer -->
     <hr />

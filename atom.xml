@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://qinlin.com/"/>
-  <updated>2016-07-26T13:30:16.000Z</updated>
+  <updated>2016-07-31T02:43:48.000Z</updated>
   <id>http://qinlin.com/</id>
   
   <author>
@@ -14,6 +14,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mac 开发，沙盒中的自启动</title>
+    <link href="http://qinlin.com/2016/07/31/Mac%20%E5%BC%80%E5%8F%91%EF%BC%8C%E6%B2%99%E7%9B%92%E4%B8%AD%E7%9A%84%E8%87%AA%E5%90%AF%E5%8A%A8/"/>
+    <id>http://qinlin.com/2016/07/31/Mac 开发，沙盒中的自启动/</id>
+    <published>2016-07-31T02:42:00.000Z</published>
+    <updated>2016-07-31T02:43:48.000Z</updated>
+    
+    <content type="html">&lt;p&gt;比较简单的一种方法是通过 &lt;code&gt;SMLoginItemSetEnabled&lt;/code&gt; 来注册启动项，但你并不能直接在主应用中将自己注册为启动项，函数会返回 false。&lt;br&gt;&lt;a href=&quot;https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLoginItems.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Apple 官方文档&lt;/a&gt; 给出一种思路：创建一个 Helper 应用-&gt;通过&lt;code&gt;SMLoginItemSetEnabled&lt;/code&gt; 注册自启动-&gt;通过 Helper 启动主应用-&gt;终结 Helper 应用。&lt;br&gt;具体实现方法参考：&lt;br&gt;&lt;a href=&quot;https://theswiftdev.com/2015/09/17/first-os-x-tutorial-how-to-launch-an-os-x-app-at-login/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;First OS X tutorial: How to launch an OS X app at login?&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://atjason.com/en/Cocoa/SwiftCocoa_Auto%20Launch%20at%20Login.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Swift &amp;amp; Cocoa: Auto Launch at Login&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比较简单的一种方法是通过 &lt;code&gt;SMLoginItemSetEnabled&lt;/code&gt; 来注册启动项，但你并不能直接在主应用中将自己注册为启动项，函数会返回 false。&lt;br&gt;&lt;a href=&quot;https://developer.apple.com/library
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Seinfeld</title>
@@ -434,28 +453,6 @@
     <content type="html"></content>
     
     <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Across the Universe</title>
-    <link href="http://qinlin.com/2015/08/04/Across-the-Universe/"/>
-    <id>http://qinlin.com/2015/08/04/Across-the-Universe/</id>
-    <published>2015-08-04T02:13:55.000Z</published>
-    <updated>2015-08-04T02:25:27.000Z</updated>
-    
-    <content type="html">&lt;p&gt;Swift 再漂亮又有什么用呢？&lt;br&gt;Cocoa 的 API 不还是怒～长～  &lt;/p&gt;
-&lt;p&gt;Fiona Apple 的版本很好听：  &lt;/p&gt;
-&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot; src=&quot;http://music.163.com/outchain/player?type=2&amp;id=2588282&amp;auto=0&amp;height=66&quot;&gt;&lt;/iframe&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Swift 再漂亮又有什么用呢？&lt;br&gt;Cocoa 的 API 不还是怒～长～  &lt;/p&gt;
-&lt;p&gt;Fiona Apple 的版本很好听：  &lt;/p&gt;
-&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheig
     
     </summary>
     
