@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://qinlin.com/"/>
-  <updated>2016-08-08T03:56:20.000Z</updated>
+  <updated>2016-08-08T03:58:41.000Z</updated>
   <id>http://qinlin.com/</id>
   
   <author>
@@ -20,10 +20,9 @@
     <link href="http://qinlin.com/2016/08/08/%E9%9C%8D%E4%B9%B1%E6%97%B6%E6%9C%9F%E7%9A%84%E7%88%B1%E6%83%85/"/>
     <id>http://qinlin.com/2016/08/08/霍乱时期的爱情/</id>
     <published>2016-08-08T03:52:24.000Z</published>
-    <updated>2016-08-08T03:56:20.000Z</updated>
+    <updated>2016-08-08T03:58:41.000Z</updated>
     
-    <content type="html">&lt;hr&gt;
-&lt;p&gt;title: 霍乱时期的爱情&lt;br&gt;date: 2016-08-08 11:52:24&lt;/p&gt;
+    <content type="html">&lt;p&gt;layout: “post”&lt;br&gt;title: 霍乱时期的爱情&lt;br&gt;date: 2016-08-08 11:52:24&lt;/p&gt;
 &lt;h2 id=&quot;tags&quot;&gt;&lt;a href=&quot;#tags&quot; class=&quot;headerlink&quot; title=&quot;tags:&quot;&gt;&lt;/a&gt;tags:&lt;/h2&gt;&lt;p&gt;偶然在软件 Ulysses 的收件箱里找到了一年多前的一段文字，发现是当时我读完《霍乱时期的爱情》后从书中抄下来的一些片段。&lt;br&gt;意味不明。  &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;正是这偶然的一瞥，成为了这场半个世纪后仍未结束的惊天动地的爱情的源头……  &lt;/li&gt;
@@ -36,9 +35,8 @@
     
     <summary type="html">
     
-      &lt;hr&gt;
-&lt;p&gt;title: 霍乱时期的爱情&lt;br&gt;date: 2016-08-08 11:52:24&lt;/p&gt;
-&lt;h2 id=&quot;tags&quot;&gt;&lt;a href=&quot;#tags&quot; class=&quot;headerlink&quot; title=&quot;tags:&quot;&gt;&lt;/a&gt;tags:&lt;/h2&gt;&lt;p&gt;偶然在软
+      &lt;p&gt;layout: “post”&lt;br&gt;title: 霍乱时期的爱情&lt;br&gt;date: 2016-08-08 11:52:24&lt;/p&gt;
+&lt;h2 id=&quot;tags&quot;&gt;&lt;a href=&quot;#tags&quot; class=&quot;headerlink&quot; title=&quot;tags:&quot;&gt;&lt;/a&gt;tags
     
     </summary>
     
